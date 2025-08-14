@@ -4,6 +4,6 @@ jobs:
   hello-world-job:
     runs-on: MacOS-latest
     steps:
-      -name: Check out repository code 
-      uses: actions/checkout@v3
-      -run: echo "$(cat hello-world.txt)"
+      -name:  Check out repository code 
+      uses:  actions/checkout@v3
+      -run:  echo "$(cat hello-world.txt)"
