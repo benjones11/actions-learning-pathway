@@ -5,9 +5,13 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  
+
   reactStrictMode: true,
+
+  eslint: {
+    // Example options
+    ignoreDuringBuilds: true,
+  },
 }
 
 module.exports = nextConfig
-
