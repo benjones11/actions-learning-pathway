@@ -9,9 +9,5 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig /*{
-eslint: {
-dirs: [".github/workflows"], 
-}, 
-  
-  }*/
+module.exports = nextConfig
+
